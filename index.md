@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
 
-You can use the [editor on GitHub](https://github.com/wuchen1998onz/mother/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wuchen1998onz/mother/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<style type="text/css">
+#chun {
+	background-color: #0C0;
+}
+#xia  {
+	background-color:#F00
+}
+#qiu {
+	background-color:#FF6
+}
+#dong{
+	background-color:#000;
+	color:#FFF;
+}
+body {
+	font-size: 36px;
+}
+page{
+	animation: mymove 5s infinite;
+	}
+@keyframes mymove
+{
+  from {opacity:0;}
+   to {opacity:100;}
+</style><body>
+<page id=chun>春</page>
+<page id=xia>夏</page>
+<page id=qiu>秋</page>
+<page id=dong>冬</page>
+</body>
+</html>
